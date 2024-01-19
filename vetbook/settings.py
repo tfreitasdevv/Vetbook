@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "prontuarios",
     "servicos",
     "tutores",
+    "teste",
 ]
 
 MIDDLEWARE = [
