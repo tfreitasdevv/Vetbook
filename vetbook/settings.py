@@ -86,15 +86,8 @@ WSGI_APPLICATION = "vetbook.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "teste",
-        "USER": "postgres",
-        "PASSWORD": "Thi2juju",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
-        "OPTIONS": {
-            "options": "-c search_path=teste_db"
-        },
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
